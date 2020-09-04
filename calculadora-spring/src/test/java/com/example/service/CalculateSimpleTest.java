@@ -124,7 +124,7 @@ public class CalculateSimpleTest {
     
 //    @Test
 //    public void fibonacci(){
-//        driver.findElement(By.xpath("//*[@id=\"c\"]")).sendKeys("6");
+//        driver.findElement(By.name("c")).sendKeys("6");
 //        
 //        WebElement fibonacci = driver.findElement(By.xpath("/html/body/form/p[2]/input[1]"));
 //        fibonacci.click();
@@ -153,7 +153,7 @@ public class CalculateSimpleTest {
 //        } catch (InterruptedException e) {
 //        }
 //        
-//        expectedResult="24";
+//        expectedResult="Resultado: 24";
 //        WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
 //        actualResult = resultado.getText();
 //        
@@ -172,7 +172,7 @@ public class CalculateSimpleTest {
 //        } catch (InterruptedException e) {
 //        }
 //        
-//        expectedResult="3.0";
+//        expectedResult="Resultado: 3.0";
 //        WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
 //        actualResult = resultado.getText();
 //        
@@ -191,7 +191,7 @@ public class CalculateSimpleTest {
 //        } catch (InterruptedException e) {
 //        }
 //        
-//        expectedResult="16";
+//        expectedResult="Resultado: 16";
 //        WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
 //        actualResult = resultado.getText();
 //        
