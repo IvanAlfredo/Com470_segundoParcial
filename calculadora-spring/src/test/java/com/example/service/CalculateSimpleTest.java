@@ -36,6 +36,7 @@ public class CalculateSimpleTest {
     public void borrar(){
         driver.findElement(By.name("a")).clear();
         driver.findElement(By.name("b")).clear();
+        //driver.findElement(By.name("c")).clear();
     }
     
     //Hacer test a suma
@@ -53,7 +54,7 @@ public class CalculateSimpleTest {
         } catch (InterruptedException e) {
         }
         
-        expectedResult="12";
+        expectedResult="Resultado: 12";
         WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
         actualResult = resultado.getText();
         
@@ -73,7 +74,7 @@ public class CalculateSimpleTest {
         } catch (InterruptedException e) {
         }
         
-        expectedResult=10;
+        expectedResult="Resultado: 10";
         WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
         actualResult = resultado.getText();
         
@@ -93,7 +94,7 @@ public class CalculateSimpleTest {
         } catch (InterruptedException e) {
         }
         
-        expectedResult=25;
+        expectedResult="Resultado: 25";
         WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
         actualResult = resultado.getText();
         
@@ -114,7 +115,7 @@ public class CalculateSimpleTest {
         } catch (InterruptedException e) {
         }
         
-        expectedResult=3;
+        expectedResult="Resultado: 3.0";
         WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
         actualResult = resultado.getText();
         
@@ -123,7 +124,7 @@ public class CalculateSimpleTest {
     
 //    @Test
 //    public void fibonacci(){
-//        driver.findElement(By.name("c")).sendKeys("6");
+//        driver.findElement(By.xpath("//*[@id=\"c\"]")).sendKeys("6");
 //        
 //        WebElement fibonacci = driver.findElement(By.xpath("/html/body/form/p[2]/input[1]"));
 //        fibonacci.click();
@@ -133,7 +134,7 @@ public class CalculateSimpleTest {
 //        } catch (InterruptedException e) {
 //        }
 //        
-//        expectedResult="8";
+//        expectedResult="Resultado: 8";
 //        WebElement resultado = driver.findElement(By.xpath("/html/body/form/h1[2]/p"));
 //        actualResult = resultado.getText();
 //        
