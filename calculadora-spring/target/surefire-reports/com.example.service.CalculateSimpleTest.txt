@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.example.service.CalculateSimpleTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 21.155 sec <<< FAILURE! - in com.example.service.CalculateSimpleTest
+dividir(com.example.service.CalculateSimpleTest)  Time elapsed: 3.234 sec  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [Resultado: 3.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.example.service.CalculateSimpleTest.dividir(CalculateSimpleTest.java:122)
+
+multiplicar(com.example.service.CalculateSimpleTest)  Time elapsed: 3.223 sec  <<< FAILURE!
+java.lang.AssertionError: expected [25] but found [Resultado: 25]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.example.service.CalculateSimpleTest.multiplicar(CalculateSimpleTest.java:101)
+
+resta(com.example.service.CalculateSimpleTest)  Time elapsed: 3.221 sec  <<< FAILURE!
+java.lang.AssertionError: expected [10] but found [Resultado: 10]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.example.service.CalculateSimpleTest.resta(CalculateSimpleTest.java:81)
+
+suma(com.example.service.CalculateSimpleTest)  Time elapsed: 3.202 sec  <<< FAILURE!
+java.lang.AssertionError: expected [12] but found [Resultado: 12]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.example.service.CalculateSimpleTest.suma(CalculateSimpleTest.java:61)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.example.service.CalculateSimpleTest">
+        <methods>
+          <include name="resta"/>
+          <include name="multiplicar"/>
+          <include name="dividir"/>
+          <include name="launchBrowser"/>
+          <include name="suma"/>
+          <include name="borrar"/>
+        </methods>
+      </class> <!-- com.example.service.CalculateSimpleTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
